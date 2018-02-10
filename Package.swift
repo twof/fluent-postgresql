@@ -9,10 +9,10 @@ let package = Package(
     ],
     dependencies: [
         // Swift Promises, Futures, and Streams.
-        .package(url: "https://github.com/vapor/async.git", .branch("beta")),
+        .package(url: "https://github.com/vapor/async.git", .exact("1.0.0-beta.1")),
 
         // Core extensions, type-aliases, and functions that facilitate common tasks.
-        .package(url: "https://github.com/vapor/core.git", .branch("beta")),
+        .package(url: "https://github.com/vapor/core.git", .exact("3.0.0-beta.1")),
 
         // Swift ORM framework (queries, models, and relations) for building NoSQL and SQL database integrations.
         .package(url: "https://github.com/vapor/fluent.git", .branch("beta")),
